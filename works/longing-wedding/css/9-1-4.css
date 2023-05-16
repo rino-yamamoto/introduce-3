@@ -9,7 +9,7 @@
 	bottom: 2%;
 	right: 0;
     width: 50px;
-    height: 200px;
+    height: 130px;
     /*矢印の動き1秒かけて永遠にループ*/
 	animation: arrowmove 2s ease-in-out infinite;
     overflow: hidden;
@@ -26,12 +26,12 @@
 .scrolldown4 span{
     /* 描画位置 */
 	position: relative;
-    left: 0;
+    left: 7px;
 	right: 0;
 	top: 0;
     /* テキストの形状 */
 	color: #eee;
-	font-size: 2rem;
+	font-size: 1rem;
 	letter-spacing: 0.1em;
 	/* 縦書き設定 */
 	-ms-writing-mode: tb-rl;
@@ -60,10 +60,10 @@
     /* 描画位置 */
     position: absolute;
     bottom: 0;
-    right: 10px;
+    right: 29px;
     /* 矢印の形状 */
-    width: 3px;
-    height: 40px;
+    width: 2px;
+    height: 12px;
     background: #eee;
     transform: skewX(-31deg);
 }
@@ -86,12 +86,12 @@
     /* 描画位置 */
 	position: absolute;
 	bottom:0;
-	right: 0;
+	right: 17px;
     left: 0;
     margin: auto;
     /* 矢印の形状 */
-	width: 3px;
-	height: 80px;
+	width: 2px;
+	height: 50px;
 	background:#eee;
 }
 /* .scrolldown4:after{

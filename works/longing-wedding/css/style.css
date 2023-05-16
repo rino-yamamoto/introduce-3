@@ -88,7 +88,8 @@ p{
     margin: auto;
 
     max-width: 1500px;
-    height: 1000px;
+    height: 120vh;
+    margin: 0 30px;
 
     /* h1を消すためのcss */
     text-indent: 100%;
